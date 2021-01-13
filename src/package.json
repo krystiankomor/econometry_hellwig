@@ -1,13 +1,13 @@
 {
-  "name": "electron-react-boilerplate",
-  "productName": "electron-react-boilerplate",
-  "version": "2.2.0",
-  "description": "Electron application boilerplate based on React, React Router, Webpack, React Hot Loader for rapid application development",
+  "name": "econometry_hellwig",
+  "productName": "Econometry calculations using Hellwig's methodology",
+  "version": "1.0.0",
+  "description": "App for econometry calculation using Hellwig's methodology. Basen on React Electron Boilerplate.",
   "main": "./main.prod.js",
   "author": {
-    "name": "Electron React Boilerplate Maintainers",
-    "email": "electronreactboilerplate@gmail.com",
-    "url": "https://github.com/electron-react-boilerplate"
+    "name": "Krystian Komor",
+    "email": "krystian.komor@gmail.com",
+    "url": "https://krystiankomor.dev"
   },
   "scripts": {
     "electron-rebuild": "node -r ../.erb/scripts/BabelRegister.js ../.erb/scripts/ElectronRebuild.js",

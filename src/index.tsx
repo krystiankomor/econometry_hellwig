@@ -10,8 +10,6 @@ const Root = require('./containers/Root').default;
 
 const AppContainer = process.env.PLAIN_HMR ? Fragment : ReactHotAppContainer;
 
-// const AppContainer = ReactHotAppContainer;
-
 render(
   <AppContainer>
     <Root store={store} history={history} />
